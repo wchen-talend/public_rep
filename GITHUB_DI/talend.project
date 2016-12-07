@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_U3jeUbwpEeavEaojTPtx1Q" label="github_di" description="" language="java" technicalLabel="GITHUB_DI" creationDate="2016-12-07T10:59:05.743+0800" author="_U3jeUrwpEeavEaojTPtx1Q" productVersion="TIBCO Jaspersoft ETL Express-6.3.1.20161115_1936-SNAPSHOT" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/wchen-talend/public_rep.git&quot;,&quot;login&quot;:&quot;wchen-talend&quot;,&quot;passwd&quot;:&quot;yxNbXoUI6aLiP59yNw/LKg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI">
+  <TalendProperties:Project xmi:id="_U3jeUbwpEeavEaojTPtx1Q" label="github_di" description="" language="java" technicalLabel="GITHUB_DI" creationDate="2016-12-07T10:59:05.743+0800" author="_U3jeUrwpEeavEaojTPtx1Q" productVersion="TIBCO Jaspersoft ETL Express-6.3.1.20161115_1936-SNAPSHOT" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/wchen-talend/public_rep.git&quot;,&quot;login&quot;:&quot;wchen-talend&quot;,&quot;passwd&quot;:&quot;yxNbXoUI6aLiP59yNw/LKg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3">
+    <technicalStatus xmi:id="_dji-ELwpEeavEaojTPtx1Q" label="development" code="DEV"/>
+    <technicalStatus xmi:id="_dji-EbwpEeavEaojTPtx1Q" label="testing" code="TEST"/>
+    <technicalStatus xmi:id="_dji-ErwpEeavEaojTPtx1Q" label="production" code="PROD"/>
+    <documentationStatus xmi:id="_djhI4LwpEeavEaojTPtx1Q" label="unchecked" code="UCK"/>
+    <documentationStatus xmi:id="_djhI4bwpEeavEaojTPtx1Q" label="checked" code="CHK"/>
+    <documentationStatus xmi:id="_djhI4rwpEeavEaojTPtx1Q" label="validated" code="VAL"/>
     <migrationTask xmi:id="_dhpgoLwpEeavEaojTPtx1Q" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_dhpgobwpEeavEaojTPtx1Q" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_dhpgorwpEeavEaojTPtx1Q" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
@@ -20,4 +26,7 @@
     <migrationTask xmi:id="_dhpgsLwpEeavEaojTPtx1Q" id="org.talend.repository.model.migration.ChangeMappingFileMigrationTask" breaks="6.2.1" version="6.2.2" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_U3jeUrwpEeavEaojTPtx1Q" login="admin@company.com" firstName="admin" lastName="admin" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_djkzQLwpEeavEaojTPtx1Q" login="github@talend.com" firstName="github" lastName="github" type="MDM" additionnalData="{}">
+    <projectAuthorization href="../D:/TargetPlatformE44_for_TOS_v8/#/"/>
+  </TalendProperties:User>
 </xmi:XMI>
